@@ -42,6 +42,23 @@ GrowUp (marca-mãe — pacote oficial: azul #4767FA, monograma U↗)
 | Avaliação de Desempenho + taxas/hora | Dentro do **Flow One** |
 | Mensagens / WhatsApp | Camada transversal da plataforma, sem sub-marca |
 
+### Princípio de comunicação — o ecossistema GrowUp 🔑
+
+**A plataforma nunca se comunica sozinha: ela é um meio dentro do ecossistema
+GrowUp.** Isso norteia toda a identidade e todo o material:
+
+- O ONE não é um "software à venda"; é **a plataforma que operacionaliza o
+  método GrowUp** (consultoria, auditorias, agentes, crescimento).
+- Toda peça de comunicação carrega o endosso da marca-mãe: assinatura
+  "by GrowUp" sempre presente, identidade visual herdada (azul #4767FA,
+  monograma U↗, tipografia institucional).
+- Hierarquia de mensagem: **GrowUp (quem transforma) → ONE (como se
+  operacionaliza) → módulos (onde acontece)**. Um post do Nexa One é, antes
+  de tudo, um post da GrowUp.
+- Implicação prática: não criamos perfis/canais separados para o ONE ou para
+  módulos — a comunicação sai nos canais da GrowUp, com o ONE como produto
+  do ecossistema.
+
 **Memória de naming** — descartados: Family One (nome-guarda-chuva original),
 Vision One (conflito: Trend Vision One/Trend Micro), Cash/Money/Fin/Balance/
 Result One, Team/Ops/Task One, Radar/Pulse/Data/Insight One. Conflitos
@@ -57,7 +74,7 @@ evitados: Capital One, Bank One, Business One (SAP), Caixa One.
 
 | # | Atividade | Entrega | Aprovação sua? |
 |---|---|---|---|
-| 1.1 | **Identidade verbal**: tagline do ONE, descritor oficial de cada módulo (1 linha), tom de voz, regras de escrita (grafia "ONE by GrowUp", uso do "by", pt-BR) | Guia verbal (MD/PDF) | Sim |
+| 1.1 | **Identidade verbal**: tagline do ONE, descritor oficial de cada módulo (1 linha), tom de voz, regras de escrita (grafia "ONE by GrowUp", uso do "by", pt-BR) e **regras de mensagem do ecossistema** (hierarquia GrowUp → ONE → módulos; como cada peça referencia a marca-mãe) | Guia verbal (MD/PDF) | Sim |
 | 1.2 | **Logo ONE by GrowUp**: wordmark + versões horizontal/vertical/selo/app icon, derivado do monograma U↗; malha de construção e área de respiro | SVG + PNG | Sim |
 | 1.3 | **Sistema de sub-marcas dos 6 Ones**: lockup de nome ("Nexa One" no padrão tipográfico), ícone e cor própria de cada módulo derivada da paleta oficial | Kit SVG/PNG + tabela de cores | Sim |
 | 1.4 | **Tipografia institucional** (proposta de família oficial p/ UI e materiais) + **paleta expandida** (tokens: dataviz, estados, funil, light/dark) | Especificação de tokens | Sim |
@@ -99,21 +116,41 @@ integração Lovable (ou direto no repo, após 2.1).
 - (b) você fornece trilha licenciada e eu embuto;
 - (c) locução via ferramenta TTS externa, se disponível.
 
-## 6. Fase 4 — Materiais de lançamento *(opcional)*
+## 6. Fase 4 — Materiais de marketing e lançamento
 
-- Apresentação comercial (slides) do ONE by GrowUp
-- One-pager de cada módulo (PDF)
-- Templates de post para redes sociais
-- Página/seção "conheça o ONE" no site
+**Objetivo**: kit completo de comunicação do ONE nos canais da GrowUp,
+seguindo o princípio do ecossistema (seção 2): toda peça assina GrowUp,
+o ONE é o produto do ecossistema.
+**Pré-requisito**: Fase 1 aprovada (identidade + guia verbal).
+
+### 4A — Social media (posts e carrosséis)
+
+| # | Atividade | Entrega |
+|---|---|---|
+| 4.1 | **Sistema visual para social**: grid/layout padrão das peças do ONE dentro da identidade GrowUp (composição, área do logo, uso das cores modulares, padrão de capa) — garante que qualquer peça futura "pareça família" | Guia de social + templates-base |
+| 4.2 | **Posts estáticos** — versões: lançamento do ONE, 1 post de apresentação por módulo (6), posts de benefício/prova. Formatos: feed 1:1 e 4:5 + stories 9:16 | Pack de posts (PNG + fonte editável) |
+| 4.3 | **Carrosséis** — versões: (a) lançamento "conheça o ONE" (capa + 6 Ones + CTA, seguindo a narrativa da família), (b) carrossel de aprofundamento por módulo (dor → solução → telas → CTA), (c) carrossel educativo/método GrowUp com o ONE como meio | Pack de carrosséis (PNG por slide + fonte editável) |
+| 4.4 | **Cortes do vídeo** (da Fase 3) para social: versão 9:16 (reels/stories) e teasers curtos por módulo | Vídeos curtos |
+
+### 4B — Comercial e institucional
+
+| # | Atividade | Entrega |
+|---|---|---|
+| 4.5 | Apresentação comercial (slides) do ONE by GrowUp — estrutura ecossistema: método GrowUp → plataforma ONE → módulos | Deck |
+| 4.6 | One-pager de cada módulo (PDF) com endosso GrowUp | 6 PDFs |
+| 4.7 | Página/seção "conheça o ONE" no site da GrowUp | Página |
+| 4.8 | Calendário de lançamento sugerido (sequência de posts/carrosséis/vídeo) | Cronograma |
 
 ## 7. Sequência e dependências
 
 ```
-Fase 0 ✅ → Fase 1 (identidade) → Fase 2 (sistema) ─┐
-                              └→ Fase 3 (vídeo) ────┴→ Fase 4 (materiais)
+Fase 0 ✅ → Fase 1 (identidade) → Fase 2 (sistema) ──┐
+                              ├→ Fase 3 (vídeo) ─────┼→ 4.4 (cortes) e 4.8 (calendário)
+                              └→ Fase 4A/4B (mkt) ───┘
 ```
 
-- Fases 2 e 3 rodam **em paralelo** após a Fase 1.
+- Fases 2, 3 e 4A rodam **em paralelo** após a Fase 1 (posts/carrosséis só
+  dependem da identidade, não do sistema pronto; apenas 4.4 depende do vídeo).
 - Único insumo externo crítico: **conectar Lovable ↔ GitHub** (item 2.1, ação
   sua no painel do Lovable) — destrava trabalho direto no repositório e
   capturas de tela reais para o vídeo.
@@ -126,7 +163,7 @@ Fase 0 ✅ → Fase 1 (identidade) → Fase 2 (sistema) ─┐
 | Fase 1 — Identidade | 🔜 **Próxima** — iniciar por 1.2+1.3 (logo + sub-marcas) |
 | Fase 2 — Aplicação no sistema | Aguarda Fase 1 |
 | Fase 3 — Vídeo | Aguarda Fase 1 |
-| Fase 4 — Materiais | Opcional, ao final |
+| Fase 4 — Marketing e lançamento | Aguarda Fase 1 (4A pode rodar em paralelo com 2 e 3) |
 
 **Próxima entrega**: painel visual com proposta de logo do ONE by GrowUp e
 sistema de cores/ícones dos 6 módulos, para sua reação.
