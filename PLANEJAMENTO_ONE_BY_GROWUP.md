@@ -13,7 +13,7 @@ GrowUp (marca-mãe)
     ├── Nexa One    → Marketing (substitui a agência de marketing)
     ├── Sales One   → CRM / Comercial
     ├── Growth One  → Growth Intelligence (IA, agentes, diagnósticos)
-    ├── [a definir] → ERP Financeiro
+    ├── Profit One  → ERP Financeiro
     ├── Flow One    → Operacional (projetos, tarefas, processos)
     └── Vision One  → Relatórios
 ```
@@ -28,6 +28,10 @@ GrowUp (marca-mãe)
 | Growth One | Módulo de Growth Intelligence |
 | Flow One | Módulo Operacional (projetos, tarefas, processos) |
 | Vision One | Módulo de Relatórios — decidido: é um "One" próprio, não camada transversal |
+| Profit One | Módulo ERP Financeiro — vende o resultado (lucro), par narrativo com Sales One |
+
+### ✅ Sexteto oficial
+**Nexa One · Sales One · Growth One · Profit One · Flow One · Vision One**
 
 ### Racional do nome ONE by GrowUp
 - O guarda-chuva não compete com os módulos — ele os **contém**: a plataforma é "o ONE",
@@ -36,36 +40,12 @@ GrowUp (marca-mãe)
 - Endosso "by GrowUp" fortalece a marca-mãe e herda sua identidade visual
   (azul #4767FA, monograma U↗).
 
-## 2. Naming pendente — módulos restantes (para aprovação)
+## 2. Naming — CONCLUÍDO ✅
 
-### ERP Financeiro
-| Opção | Racional |
-|---|---|
-| **Cash One** ⭐ | Direto e universal; todo empresário entende na hora |
-| Profit One | Vende o resultado (lucro), não a ferramenta |
-| Money One | Coloquial, forte para PME |
-| Fin One | Curto, tom fintech, menos óbvio falado |
-
-### Operacional (projetos, tarefas, processos)
-| Opção | Racional |
-|---|---|
-| **Flow One** ⭐ | Processos fluindo; curto e moderno |
-| Team One | "Onde o time trabalha alinhado" (ver alternativa na seção 3) |
-| Ops One | Jargão de operações, tom mais tech |
-| Task One | Clareza máxima, porém literal |
-
-### Relatórios
-| Opção | Racional |
-|---|---|
-| **Vision One** ⭐ | Vende o benefício (enxergar o negócio); par elegante com Growth One |
-| Data One | Território claro de dados |
-| Insight One | Meio-termo entre benefício e território |
-| — | Alternativa: Relatórios como **camada transversal** da plataforma, sem sub-marca |
-
-⭐ = recomendação
-
-### Sexteto recomendado
-**Nexa One · Sales One · Growth One · Cash One · Flow One · Vision One**
+Todos os 6 módulos nomeados. Opções descartadas registradas para memória:
+ERP → Cash/Money/Fin/Balance/Result One; Operacional → Team/Ops/Task One;
+Relatórios → Data/Insight One. Conflitos evitados: Capital One, Bank One,
+Business One (SAP), Caixa One.
 
 ## 3. Decisões de arquitetura pendentes
 
@@ -80,7 +60,7 @@ GrowUp (marca-mãe)
 
 ### Fase 0 — Naming e arquitetura *(em andamento)*
 - [x] 0.0 Nome do sistema: **ONE by GrowUp**
-- [ ] 0.1 Aprovar nomes dos 3 módulos restantes
+- [x] 0.1 Nomes dos 6 módulos aprovados (Nexa, Sales, Growth, Profit, Flow, Vision)
 - [ ] 0.2 Decidir arquitetura (Relatórios, Planejamento, Mensagens, Avaliação)
 - [ ] 0.3 Consolidar grafia oficial e hierarquia de marca
 
