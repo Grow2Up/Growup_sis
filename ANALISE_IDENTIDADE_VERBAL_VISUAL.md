@@ -114,3 +114,70 @@ Os valores derivam da **paleta Tailwind** (blue-500, red-500, purple-500, emeral
 3. **Dois descritores** ("Sistema de Gestão Empresarial" × "Plataforma completa de crescimento") — o segundo é mais alinhado ao posicionamento de growth.
 4. **Sem tipografia proprietária** — adotar uma família oficial (ex.: Inter ou similar) daria mais reconhecimento de marca, inclusive nos PDFs (hoje em Arial).
 5. `lang="en"` no HTML para conteúdo pt-BR (detalhe técnico com impacto em SEO/acessibilidade).
+
+---
+
+## 4. Pacote oficial da marca × identidade implementada no sistema
+
+> Seção adicionada após análise do **PACOTE DA MARCA** oficial (AI/PDF/PNG/SVG):
+> logo horizontal (6 colorways), logo vertical (6 colorways) e 19 selos.
+
+### 4.1 O que o pacote oficial define
+
+**Logotipo** — wordmark "growup" em **caixa-baixa**, tipografia geométrica bold customizada
+(letras vetorizadas, não é fonte de mercado), com dois recursos narrativos:
+- O **"w" se transforma em linha de gráfico ascendente** (zigzag que sobe e termina em pico) —
+  o crescimento está literalmente desenhado dentro do nome.
+- O **"o" com corte diagonal** (vértice de balão/pin), dando personalidade às contraformas.
+- Assinatura fecha com o **monograma**: contêiner em "U" de onde uma **seta ↗ explode para fora**
+  — símbolo de rompimento de teto/crescimento. Existe em versão horizontal (nome + símbolo)
+  e vertical (grow/up empilhados + símbolo).
+
+**Selos (19 variações)** — badge circular com "GROWUP" repetido 4× ao redor do monograma;
+versões vazadas (só a arte) e com fundo sólido (preto, azul, laranja, verde, off-white),
+para redes sociais, carimbo e aplicações compactas.
+
+**Paleta oficial** (extraída dos vetores):
+
+| Cor | Hex | Uso no pacote |
+|---|---|---|
+| Azul vivo (principal) | **#4767FA** | Colorway 01 do logo vertical |
+| Azul profundo | **#3A50D2** | Colorway azul do logo horizontal e selos |
+| Laranja queimado | **#DE571B** | Colorway secundária |
+| Verde musgo | **#5E8C54** | Colorway secundária |
+| Off-white | **#F1F1F1** | Versão clara / fundos escuros |
+| Cinza neutro | **#6C6C70** | Versão neutra |
+| Preto | **#141414** | Versão escura / fundos de selo |
+
+É uma paleta **sóbria e levemente terrosa** (laranja queimado + verde musgo) ancorada em
+azul-índigo — bem diferente de uma paleta "tech saturada".
+
+### 4.2 Comparativo: marca oficial × sistema
+
+| Elemento | Pacote oficial | Sistema (implementado) | Veredito |
+|---|---|---|---|
+| Azul primário | #4767FA / #3A50D2 (índigo) | `hsl(214 88% 52%)` ≈ #1A76F0 (azul-céu vivo) | **Divergente** — o azul do app não é o azul da marca |
+| Azul nos PDFs | — | #4052F6 | **Quase fiel** — muito próximo do #4767FA oficial; ironicamente o PDF acerta e o app erra |
+| Laranja | #DE571B (queimado) | `hsl(25 95% 53%)` ≈ #F97316 (Tailwind) | Divergente (mais saturado/claro) |
+| Verde | #5E8C54 (musgo) | `hsl(160 84% 39%)` ≈ #10B77F (esmeralda) | Divergente (tom frio Tailwind) |
+| Roxo / vermelho / amarelo | **não existem na marca** | usados como cores de módulo e funil | Extrapolação sem respaldo no brandbook |
+| Logo | wordmark caixa-baixa + monograma U↗ + selos | selo no login, monograma no favicon, wordmark no header | **Correto** — os assets certos estão em uso |
+| Tipografia | wordmark custom (só logo); sem fonte de UI definida no pacote | pilha de sistema | Lacuna do pacote — falta definir fonte institucional de apoio |
+| Fundo claro | #F1F1F1 | `hsl(245 16% 97%)` ≈ #F6F6F9 | Compatível |
+| Preto | #141414 | foreground `hsl(218 23% 16%)` (azulado) | Compatível (leve divergência de temperatura) |
+
+### 4.3 Conclusão revisada
+
+1. **O maior desvio da identidade é o azul primário do sistema**: o app inteiro roda em
+   #1A76F0, mas a marca é **#4767FA/#3A50D2**. Correção simples e de alto impacto — trocar
+   os tokens `--primary`, `--ring` e `--gradient-primary` para o azul oficial
+   (≈ `hsl(231 94% 63%)` para #4767FA).
+2. As cores modulares (roxo, vermelho, amarelo, esmeralda, laranja Tailwind) são uma
+   **extensão funcional legítima** (a marca não cobre dataviz/status), mas deveriam ser
+   **recalibradas a partir da paleta oficial** — ex.: usar #DE571B como laranja do
+   Operacional e #5E8C54 como verde de ERP/Fechamento — mantendo o índigo como eixo.
+3. O pacote **não define tipografia de apoio nem tom de voz** — vale evoluí-lo para um
+   brandbook com fonte institucional, regras de aplicação, área de respiro e as taglines
+   oficiais (hoje o produto improvisa nesses pontos).
+4. Os assets certos já estão no produto (selo, monograma, wordmark) — o problema não é
+   *o que* está aplicado, e sim *a cor* em que o restante da interface foi construída.
