@@ -15,7 +15,7 @@ GrowUp (marca-mãe)
     ├── Growth One  → Growth Intelligence (IA, agentes, diagnósticos)
     ├── Profit One  → ERP Financeiro
     ├── Flow One    → Operacional (projetos, tarefas, processos)
-    └── Vision One  → Relatórios
+    └── North One   → Relatórios
 ```
 
 ### Decisões tomadas ✅
@@ -27,11 +27,11 @@ GrowUp (marca-mãe)
 | Sales One | Módulo de CRM/Comercial |
 | Growth One | Módulo de Growth Intelligence |
 | Flow One | Módulo Operacional (projetos, tarefas, processos) |
-| Vision One | Módulo de Relatórios — decidido: é um "One" próprio, não camada transversal |
+| North One | Módulo de Relatórios — "o norte do negócio"; é um "One" próprio, não camada transversal |
 | Profit One | Módulo ERP Financeiro — vende o resultado (lucro), par narrativo com Sales One |
 
 ### ✅ Sexteto oficial
-**Nexa One · Sales One · Growth One · Profit One · Flow One · Vision One**
+**Nexa One · Sales One · Growth One · Profit One · Flow One · North One**
 
 ### Racional do nome ONE by GrowUp
 - O guarda-chuva não compete com os módulos — ele os **contém**: a plataforma é "o ONE",
@@ -44,7 +44,7 @@ GrowUp (marca-mãe)
 
 Todos os 6 módulos nomeados. Opções descartadas registradas para memória:
 ERP → Cash/Money/Fin/Balance/Result One; Operacional → Team/Ops/Task One;
-Relatórios → Data/Insight One. Conflitos evitados: Capital One, Bank One,
+Relatórios → Vision/Radar/Pulse/Data/Insight One (Vision One descartado: conflito com Trend Vision One, da Trend Micro). Conflitos evitados: Capital One, Bank One,
 Business One (SAP), Caixa One.
 
 ## 3. Decisões de arquitetura pendentes
@@ -60,7 +60,7 @@ Business One (SAP), Caixa One.
 
 ### Fase 0 — Naming e arquitetura *(em andamento)*
 - [x] 0.0 Nome do sistema: **ONE by GrowUp**
-- [x] 0.1 Nomes dos 6 módulos aprovados (Nexa, Sales, Growth, Profit, Flow, Vision)
+- [x] 0.1 Nomes dos 6 módulos aprovados (Nexa, Sales, Growth, Profit, Flow, North)
 - [ ] 0.2 Decidir arquitetura (Relatórios, Planejamento, Mensagens, Avaliação)
 - [ ] 0.3 Consolidar grafia oficial e hierarquia de marca
 
