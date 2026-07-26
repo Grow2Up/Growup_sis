@@ -1,91 +1,132 @@
-# ONE by GrowUp — Naming e Planejamento de Rebranding
+# ONE by GrowUp — Planejamento Mestre de Rebranding
 
-> Documento de trabalho — Fase 0 (naming e arquitetura de marca).
-> Status das decisões em cada seção.
+> Documento mestre do projeto de rebranding do sistema (antes "Growup SIS" /
+> "GrowUp 360" / "Business Suite", em sistema.grow2up.com.br).
+> **Fase 0 concluída e aprovada** — este documento consolida as decisões e
+> detalha as fases de execução.
 
 ---
 
-## 1. Arquitetura da marca
+## 1. Contexto e objetivo
+
+O sistema de gestão da GrowUp será rebatizado como **ONE by GrowUp**: uma
+plataforma única composta por uma família de módulos com sufixo "One", cada um
+posicionado como um sub-produto vendável. O projeto abrange naming (concluído),
+identidade verbal e visual, aplicação completa no sistema e um vídeo animado de
+apresentação.
+
+O rebranding também corrige problemas identificados nas análises anteriores
+(ver `ANALISE_IDENTIDADE_VERBAL_VISUAL.md`): naming fragmentado, azul primário
+divergente da marca oficial e ausência de tipografia institucional.
+
+## 2. Arquitetura da marca — APROVADA ✅
 
 ```
-GrowUp (marca-mãe)
-└── ONE by GrowUp (plataforma / sistema)
-    ├── Nexa One    → Marketing (substitui a agência de marketing)
-    ├── Sales One   → CRM / Comercial
-    ├── Growth One  → Growth Intelligence (IA, agentes, diagnósticos)
-    ├── Profit One  → ERP Financeiro
-    ├── Flow One    → Operacional (projetos, tarefas, processos)
-    └── North One   → Relatórios
+GrowUp (marca-mãe — pacote oficial: azul #4767FA, monograma U↗)
+└── ONE by GrowUp (a plataforma)
+    ├── Nexa One   → Marketing            "substitui a agência"
+    ├── Sales One  → CRM / Comercial      "traz a venda"
+    ├── Growth One → Growth Intelligence  "acelera com IA"
+    ├── Profit One → ERP Financeiro       "garante o lucro"
+    ├── Flow One   → Operacional          "faz o negócio rodar"
+    └── North One  → Relatórios           "dá o norte"
 ```
 
-### Decisões tomadas ✅
-| Item | Decisão |
+**Narrativa da família** (base para vendas e vídeo):
+*Nexa atrai → Sales converte → Profit lucra → Flow executa → North dá o norte → Growth acelera.*
+
+**Encaixe das demais áreas do sistema** (aprovado):
+| Área existente | Destino |
 |---|---|
-| Nome do sistema | **ONE by GrowUp** |
-| Metodologia de naming dos módulos | Sufixo **One** (ex.: Nexa One) |
-| Nexa One | Módulo de Marketing — posicionamento "substitui a agência de marketing" |
-| Sales One | Módulo de CRM/Comercial |
-| Growth One | Módulo de Growth Intelligence |
-| Flow One | Módulo Operacional (projetos, tarefas, processos) |
-| North One | Módulo de Relatórios — "o norte do negócio"; é um "One" próprio, não camada transversal |
-| Profit One | Módulo ERP Financeiro — vende o resultado (lucro), par narrativo com Sales One |
+| Planejamento Estratégico (SWOT, GPD, canvas, personas) | Dentro do **Growth One** |
+| Avaliação de Desempenho + taxas/hora | Dentro do **Flow One** |
+| Mensagens / WhatsApp | Camada transversal da plataforma, sem sub-marca |
 
-### ✅ Sexteto oficial
-**Nexa One · Sales One · Growth One · Profit One · Flow One · North One**
+**Memória de naming** — descartados: Family One (nome-guarda-chuva original),
+Vision One (conflito: Trend Vision One/Trend Micro), Cash/Money/Fin/Balance/
+Result One, Team/Ops/Task One, Radar/Pulse/Data/Insight One. Conflitos
+evitados: Capital One, Bank One, Business One (SAP), Caixa One.
 
-### Racional do nome ONE by GrowUp
-- O guarda-chuva não compete com os módulos — ele os **contém**: a plataforma é "o ONE",
-  e cada módulo é uma face dele (Sales One, Nexa One…).
-- Resolve a fragmentação de naming anterior (GrowUp 360 / Business Suite / Hub de Negócios).
-- Endosso "by GrowUp" fortalece a marca-mãe e herda sua identidade visual
-  (azul #4767FA, monograma U↗).
+---
 
-## 2. Naming — CONCLUÍDO ✅
+## 3. Fase 1 — Identidade verbal e visual do ONE by GrowUp
 
-Todos os 6 módulos nomeados. Opções descartadas registradas para memória:
-ERP → Cash/Money/Fin/Balance/Result One; Operacional → Team/Ops/Task One;
-Relatórios → Vision/Radar/Pulse/Data/Insight One (Vision One descartado: conflito com Trend Vision One, da Trend Micro). Conflitos evitados: Capital One, Bank One,
-Business One (SAP), Caixa One.
+**Objetivo**: definir e documentar a identidade completa antes de tocar no sistema.
+**Premissa**: herdar a marca-mãe GrowUp (paleta oficial #4767FA, #3A50D2,
+#DE571B, #5E8C54, #F1F1F1, #6C6C70, #141414; monograma U↗; wordmark caixa-baixa).
 
-## 3. Decisões de arquitetura pendentes
+| # | Atividade | Entrega | Aprovação sua? |
+|---|---|---|---|
+| 1.1 | **Identidade verbal**: tagline do ONE, descritor oficial de cada módulo (1 linha), tom de voz, regras de escrita (grafia "ONE by GrowUp", uso do "by", pt-BR) | Guia verbal (MD/PDF) | Sim |
+| 1.2 | **Logo ONE by GrowUp**: wordmark + versões horizontal/vertical/selo/app icon, derivado do monograma U↗; malha de construção e área de respiro | SVG + PNG | Sim |
+| 1.3 | **Sistema de sub-marcas dos 6 Ones**: lockup de nome ("Nexa One" no padrão tipográfico), ícone e cor própria de cada módulo derivada da paleta oficial | Kit SVG/PNG + tabela de cores | Sim |
+| 1.4 | **Tipografia institucional** (proposta de família oficial p/ UI e materiais) + **paleta expandida** (tokens: dataviz, estados, funil, light/dark) | Especificação de tokens | Sim |
+| 1.5 | **Brandbook ONE by GrowUp** consolidando 1.1–1.4 com regras de aplicação | Brandbook (HTML/PDF) | Sim (fecha a fase) |
 
-1. **Relatórios**: vira "One" próprio ou camada transversal presente em todos os módulos?
-2. **Áreas fora dos 6 cards** — onde encaixar:
-   - Planejamento Estratégico (SWOT, GPD, canvas, personas) → dentro do Growth One? "Plan One"?
-   - Avaliação de Desempenho + taxas/hora → "Team One" como 7º módulo?
-   - Mensagens/WhatsApp → camada transversal ("powered by ONE")?
-3. **Diretriz**: a família ganha força com 6–8 nomes fortes e perde com 12 diluídos.
+**Método de trabalho**: cada item vai para você como painel visual (artefato)
+para reação rápida; itero até aprovar. Primeira entrega: painel com propostas
+de logo + cores dos módulos (1.2 + 1.3 juntos, que são o coração da identidade).
 
-## 4. Plano de atividades (aprovado)
+## 4. Fase 2 — Aplicação no sistema
 
-### Fase 0 — Naming e arquitetura *(em andamento)*
-- [x] 0.0 Nome do sistema: **ONE by GrowUp**
-- [x] 0.1 Nomes dos 6 módulos aprovados (Nexa, Sales, Growth, Profit, Flow, North)
-- [ ] 0.2 Decidir arquitetura (Relatórios, Planejamento, Mensagens, Avaliação)
-- [ ] 0.3 Consolidar grafia oficial e hierarquia de marca
+**Objetivo**: o sistema em produção refletindo 100% a nova identidade.
+**Pré-requisito**: Fase 1 aprovada. Itens 2.2–2.6 podem ser executados via
+integração Lovable (ou direto no repo, após 2.1).
 
-### Fase 1 — Identidade verbal e visual do ONE by GrowUp
-- [ ] 1.1 Identidade verbal: tagline, descritores por módulo, tom de voz, regras de escrita
-- [ ] 1.2 Logo ONE by GrowUp (derivado da marca GrowUp: monograma U↗, azul #4767FA) + variações
-- [ ] 1.3 Sistema de sub-marcas: ícone + cor de cada "One" a partir da paleta oficial
-      (#4767FA, #3A50D2, #DE571B, #5E8C54)
-- [ ] 1.4 Tipografia institucional e paleta expandida (dataviz, estados, dark mode)
-- [ ] 1.5 Brandbook consolidado
+| # | Atividade | Entrega |
+|---|---|---|
+| 2.1 | **Sincronizar código Lovable ↔ GitHub** (habilita versionamento, backup e trabalho direto no repo; hoje o repo está vazio) — requer você conectar o GitHub no painel do Lovable | Repo populado |
+| 2.2 | **Design tokens**: azul primário oficial (#4767FA), cores modulares recalibradas, light + dark | `index.css`/`tailwind.config` atualizados |
+| 2.3 | **Renomear módulos na UI**: dashboard (cards → Nexa One, Sales One…), títulos, menus, textos, chatbots | UI rebatizada |
+| 2.4 | **Reestruturar navegação** conforme arquitetura: Planejamento Estratégico sob Growth One, Avaliação sob Flow One, Mensagens como camada transversal | Navegação nova |
+| 2.5 | **Identidade em todos os pontos de contato**: login, headers, favicon, OG image, meta tags/SEO ("ONE by GrowUp"), `lang="pt-BR"`, PDFs gerados (diagnóstico, relatórios), templates de e-mail/WhatsApp | Assets aplicados |
+| 2.6 | **QA visual completo**: todas as telas, light/dark, páginas públicas (diagnóstico, questionários, projetos compartilhados), PDFs | Checklist aprovado |
 
-### Fase 2 — Aplicação no sistema
-- [ ] 2.1 Sincronizar código Lovable ↔ GitHub
-- [ ] 2.2 Corrigir azul primário e tokens CSS para a paleta oficial (light + dark)
-- [ ] 2.3 Renomear módulos na UI, PDFs, meta tags/SEO, favicon/OG, `lang="pt-BR"`
-- [ ] 2.4 Aplicar logos/selos oficiais (login, header, PDFs)
-- [ ] 2.5 QA visual completo
+## 5. Fase 3 — Vídeo animado de apresentação
 
-### Fase 3 — Vídeo animado de apresentação
-- [ ] 3.1 Roteiro + storyboard (60–90s): logo animado → promessa → tour pelos Ones → CTA
-- [ ] 3.2 Produção motion graphics (MP4 1080p, 16:9) com a identidade nova
-- [ ] 3.3 Ajustes + versão 9:16 para redes (opcional)
-- Nota: áudio (trilha/locução) precisa ser fornecido ou aprovada versão sem áudio
+**Objetivo**: vídeo de lançamento do ONE by GrowUp.
+**Pré-requisito**: Fase 1 aprovada (identidade); telas reais dependem de 2.1
+(senão, mockups fiéis em HTML).
 
-### Fase 4 — Extras de lançamento (opcional)
-- [ ] Apresentação comercial, one-pager por módulo, templates de post
+| # | Atividade | Entrega | Aprovação sua? |
+|---|---|---|---|
+| 3.1 | **Roteiro + storyboard** (60–90s): abertura com logo animado → dor ("quantas ferramentas você paga hoje?") → promessa do ONE → tour pelos 6 Ones seguindo a narrativa da família → CTA | Roteiro ilustrado | Sim |
+| 3.2 | **Produção motion graphics**: animação por código (render frame a frame), 1080p 16:9, MP4 | Vídeo v1 | Sim |
+| 3.3 | **Rodada de ajustes** + export final; opcional versão 9:16 para redes | Vídeo final | Sim |
 
-**Sequência crítica**: Fase 0 → Fase 1 → Fases 2 e 3 em paralelo.
+**Sobre áudio** (decisão sua, pode ficar para a 3.1):
+- (a) vídeo com texto on-screen, sem áudio (pronto para receber trilha depois);
+- (b) você fornece trilha licenciada e eu embuto;
+- (c) locução via ferramenta TTS externa, se disponível.
+
+## 6. Fase 4 — Materiais de lançamento *(opcional)*
+
+- Apresentação comercial (slides) do ONE by GrowUp
+- One-pager de cada módulo (PDF)
+- Templates de post para redes sociais
+- Página/seção "conheça o ONE" no site
+
+## 7. Sequência e dependências
+
+```
+Fase 0 ✅ → Fase 1 (identidade) → Fase 2 (sistema) ─┐
+                              └→ Fase 3 (vídeo) ────┴→ Fase 4 (materiais)
+```
+
+- Fases 2 e 3 rodam **em paralelo** após a Fase 1.
+- Único insumo externo crítico: **conectar Lovable ↔ GitHub** (item 2.1, ação
+  sua no painel do Lovable) — destrava trabalho direto no repositório e
+  capturas de tela reais para o vídeo.
+
+## 8. Status e próximos passos
+
+| Fase | Status |
+|---|---|
+| Fase 0 — Naming e arquitetura | ✅ Concluída (ONE by GrowUp + 6 módulos + encaixes) |
+| Fase 1 — Identidade | 🔜 **Próxima** — iniciar por 1.2+1.3 (logo + sub-marcas) |
+| Fase 2 — Aplicação no sistema | Aguarda Fase 1 |
+| Fase 3 — Vídeo | Aguarda Fase 1 |
+| Fase 4 — Materiais | Opcional, ao final |
+
+**Próxima entrega**: painel visual com proposta de logo do ONE by GrowUp e
+sistema de cores/ícones dos 6 módulos, para sua reação.
