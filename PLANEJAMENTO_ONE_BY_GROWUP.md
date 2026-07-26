@@ -14,8 +14,8 @@ GrowUp (marca-mãe)
     ├── Sales One   → CRM / Comercial
     ├── Growth One  → Growth Intelligence (IA, agentes, diagnósticos)
     ├── [a definir] → ERP Financeiro
-    ├── [a definir] → Operacional (projetos, tarefas, processos)
-    └── [a definir] → Relatórios (ou camada transversal)
+    ├── Flow One    → Operacional (projetos, tarefas, processos)
+    └── Vision One  → Relatórios
 ```
 
 ### Decisões tomadas ✅
@@ -26,6 +26,8 @@ GrowUp (marca-mãe)
 | Nexa One | Módulo de Marketing — posicionamento "substitui a agência de marketing" |
 | Sales One | Módulo de CRM/Comercial |
 | Growth One | Módulo de Growth Intelligence |
+| Flow One | Módulo Operacional (projetos, tarefas, processos) |
+| Vision One | Módulo de Relatórios — decidido: é um "One" próprio, não camada transversal |
 
 ### Racional do nome ONE by GrowUp
 - O guarda-chuva não compete com os módulos — ele os **contém**: a plataforma é "o ONE",
