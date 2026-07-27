@@ -44,10 +44,25 @@ está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
   `fase1/BRANDBOOK_ONE_BY_GROWUP.pdf`
 - Artefato: https://claude.ai/code/artifact/8951a458-25e2-431d-b583-f2398c14aed0
 
-**Próximo passo**: Fases 2 (aplicação no sistema), 3 (vídeo) e 4A (posts/
-carrosséis) podem rodar em paralelo. Fase 2 depende de decisão: aplicar via
-agente do Lovable (consome créditos do workspace) ou via repo após conectar
-Lovable↔GitHub (item 2.1, ação do usuário no painel do Lovable).
+**FASE 2 EM EXECUÇÃO via agente do Lovable** (27/07/2026) — etapas aplicadas
+no PREVIEW (produção intocada; publicar é decisão do usuário no Lovable):
+- Etapa 1 (4,3 cr, commit 2aa3e40): fontes Poppins/Manrope, todos os tokens
+  light/dark (azul #4767FA, módulos, funil, dataviz), logos em public/brand/
+  (login/header/favicon), meta tags/lang pt-BR. Knowledge do projeto Lovable
+  gravado com as regras da marca.
+- Etapa 2 (3,4 cr, commit 7292170): 6 cards e páginas renomeados para os
+  Ones com descritores oficiais; "Business Suite"/"Hub de Negócios" removidos;
+  login com tagline; rodapé institucional.
+- Etapa 3a (2,8 cr, commit 12a9e74): PDFs (logo/azul/fontes/rodapés),
+  chatbots renomeados, páginas públicas atualizadas.
+- Etapa 3b (3,2 cr, commit f232a12): navegação — Planejamento Estratégico
+  sob Growth One, Avaliação sob Flow One, Mensagens camada neutra; rotas
+  antigas preservadas.
+- QA final: em execução (varredura de strings/cores antigas, dark mode,
+  refs quebradas, typecheck).
+
+**Próximo**: relatório do QA → usuário valida preview → usuário publica.
+Depois: Fase 3 (vídeo) e Fase 4A (posts/carrosséis).
 
 ## Decisões-chave (não rediscutir)
 
