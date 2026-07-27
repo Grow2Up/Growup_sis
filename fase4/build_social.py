@@ -100,12 +100,11 @@ for i, (slug, nome, cor, verbo, desc, longdesc) in enumerate(MODS):
   <div class="mod-v" style="color:{cor}">{verbo}</div>
   <p class="mod-d2">{longdesc}</p>
   {footer()}''', 'mod'))
-# CTA
-arts.append(('carrossel_08_cta', f'''
+# fechamento (sem CTA — assinatura da marca)
+arts.append(('carrossel_08_fechamento', f'''
   <div class="hero-logo">{logo_off}</div>
   <h1 class="hero-t sm2">Um sistema.<br>Seis módulos.<br>Todo o seu crescimento.</h1>
-  <div class="cta-b">Fale com a GrowUp</div>
-  <p class="hero-s2">link na bio</p>''', 'launch'))
+  <p class="hero-s2">O método GrowUp em forma de plataforma.</p>''', 'launch'))
 
 arts_html = ''
 for name, inner, kind in arts:
@@ -119,7 +118,11 @@ body{background:#333;font-family:"Manrope",sans-serif;display:flex;flex-directio
 .art .inner{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px 80px}
 .wash{position:absolute;inset:0}
 .art.sq{height:1080px}
+/* 9:16 — zona segura do Meta (stories/reels): ~250px topo, ~340px base, UI lateral */
 .art.story{height:1920px}
+.art.story .inner{padding:280px 110px 380px}
+.art.story .foot{bottom:340px}
+.art.story .sl-top{top:290px;right:110px}
 
 .hero-chips{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;max-width:70%;margin-bottom:60px}
 .hero-chips span{background:#1E1F2A;border:2px solid #343544;color:#B9BAC6;font-size:27px;padding:14px 30px;border-radius:99px;transform:rotate(var(--r))}
@@ -131,7 +134,6 @@ body{background:#333;font-family:"Manrope",sans-serif;display:flex;flex-directio
 .hero-t.sm2{font-size:76px}
 .hero-s{color:#9C9CA6;font-size:30px;margin-top:44px;letter-spacing:.02em}
 .hero-s2{color:#9C9CA6;font-size:32px;margin-top:50px}
-.cta-b{background:#4767FA;color:#fff;font-family:"Poppins";font-weight:600;font-size:36px;border-radius:18px;padding:26px 64px;margin-top:70px}
 
 .mod-tile{width:170px;height:170px;border-radius:42px;display:flex;align-items:center;justify-content:center;margin-bottom:56px}
 .mod-tile svg{width:92px;height:92px}
