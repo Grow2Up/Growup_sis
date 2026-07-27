@@ -81,9 +81,17 @@ sistema.grow2up.com.br segue com a marca antiga até publicar).
 - `fase4/GUIA_SOCIAL.md` (sistema visual + regras) e gerador
   `fase4/build_social.py`
 
-**Pendências gerais**: usuário validar preview e PUBLICAR o sistema no
-Lovable; feedback da v1 dos vídeos; restam da Fase 4B: deck comercial,
-one-pagers, página no site, calendário de lançamento (4.8).
+**FASE 4B ENTREGUE (27/07/2026) — PROJETO COMPLETO**:
+- Deck comercial: `fase4/deck-one-by-growup.pptx` (13 slides, validado)
+- One-pagers: `fase4/onepagers/onepager_<modulo>-one.pdf` (6 PDFs A4)
+- Página "Conheça o ONE": `fase4/landing-conheca-o-one.html` (autocontida,
+  pronta p/ o site) · artefato: https://claude.ai/code/artifact/11aaf0a1-eae8-4070-a3b0-66dd3b7a320b
+- Calendário de lançamento: `fase4/CALENDARIO_LANCAMENTO.md` (4 semanas)
+
+**Únicas pendências (ações do usuário)**:
+1. Validar preview e PUBLICAR o sistema no Lovable (Dia D do calendário)
+2. Feedback dos vídeos v1 (ajustes re-renderizam em minutos)
+3. Opcional: conectar Lovable↔GitHub p/ versionar o código do sistema
 
 ## Decisões-chave (não rediscutir)
 
