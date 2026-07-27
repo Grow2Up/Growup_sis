@@ -160,10 +160,11 @@ Fase 0 ✅ → Fase 1 (identidade) → Fase 2 (sistema) ──┐
 | Fase | Status |
 |---|---|
 | Fase 0 — Naming e arquitetura | ✅ Concluída (ONE by GrowUp + 6 módulos + encaixes) |
-| Fase 1 — Identidade | 🔜 **Próxima** — iniciar por 1.2+1.3 (logo + sub-marcas) |
-| Fase 2 — Aplicação no sistema | Aguarda Fase 1 |
-| Fase 3 — Vídeo | Aguarda Fase 1 |
-| Fase 4 — Marketing e lançamento | Aguarda Fase 1 (4A pode rodar em paralelo com 2 e 3) |
+| Fase 1 — Identidade | ✅ Concluída (kit de logos, tokens, guia verbal e brandbook aprovados) |
+| Fase 2 — Aplicação no sistema | 🔜 Liberada |
+| Fase 3 — Vídeo | 🔜 Liberada |
+| Fase 4 — Marketing e lançamento | 🔜 4A liberada |
 
-**Próxima entrega**: painel visual com proposta de logo do ONE by GrowUp e
-sistema de cores/ícones dos 6 módulos, para sua reação.
+**Fase 1 concluída em 27/07/2026** — entregas: kit de logos (`fase1/kit/`),
+tokens (`fase1/tokens/`), guia verbal (`fase1/GUIA_VERBAL.md`) e brandbook
+(`fase1/BRANDBOOK_ONE_BY_GROWUP.pdf`).

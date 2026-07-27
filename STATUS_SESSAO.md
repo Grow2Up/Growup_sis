@@ -1,7 +1,7 @@
 # Status do projeto — retomada rápida
 
 > Nota de handoff para a próxima sessão de trabalho.
-> Última atualização: 26/07/2026.
+> Última atualização: 27/07/2026.
 
 ## Onde paramos
 
@@ -27,16 +27,25 @@ está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
 - Arquivos: `fase1/tokens/tokens.css` + `fase1/tokens/TOKENS.md`
 - Painel 2: https://claude.ai/code/artifact/510ddca9-d099-4150-b888-87988a34cc51
 
-**Item 1.1 ENTREGUE, aguardando aprovação** (Painel 3):
+**Item 1.1 APROVADO** (Painel 3):
 - Tagline recomendada: "Todo o seu negócio em um." + descritor
   "O método GrowUp em forma de plataforma."
 - 6 descritores de módulo, tom de voz (4 princípios), regras de grafia,
   regras do ecossistema e pitches (10s/30s)
 - Guia: `fase1/GUIA_VERBAL.md` · Painel 3:
   https://claude.ai/code/artifact/4f618c76-c0c3-4c04-b72b-d513f02fd08e
-- Pendente: aprovação das 3 decisões do Painel 3
+- Aprovado: tagline "Todo o seu negócio em um." + descritor + descritores
+  de módulo + tom de voz + regras
 
-**Próximo passo**: com o OK do 1.1 → item 1.5 (brandbook) fecha a Fase 1.
+**Item 1.5 CONCLUÍDO — FASE 1 ENCERRADA** (27/07/2026):
+- Brandbook v1: `fase1/brandbook-one-by-growup.html` (navegável) +
+  `fase1/BRANDBOOK_ONE_BY_GROWUP.pdf`
+- Artefato: https://claude.ai/code/artifact/8951a458-25e2-431d-b583-f2398c14aed0
+
+**Próximo passo**: Fases 2 (aplicação no sistema), 3 (vídeo) e 4A (posts/
+carrosséis) podem rodar em paralelo. Fase 2 depende de decisão: aplicar via
+agente do Lovable (consome créditos do workspace) ou via repo após conectar
+Lovable↔GitHub (item 2.1, ação do usuário no painel do Lovable).
 
 ## Decisões-chave (não rediscutir)
 
