@@ -66,7 +66,15 @@ no PREVIEW (produção intocada; publicar é decisão do usuário no Lovable):
 **FASE 2 CONCLUÍDA NO PREVIEW** (total ~18,2 créditos Lovable).
 **Pendente do usuário**: validar o preview e PUBLICAR no Lovable (produção
 sistema.grow2up.com.br segue com a marca antiga até publicar).
-**Próximo**: Fase 3 (roteiro do vídeo) e Fase 4A (posts/carrosséis).
+**FASE 3 CONCLUÍDA (v1)** (27/07/2026):
+- 3.1 Storyboard aprovado (11 cenas, ~72s, áudio opção A — sem trilha embutida)
+- 3.2 Vídeo produzido: `fase3/one-by-growup_video_1080p.mp4` (72s, 1080p30,
+  H.264, 3,3MB). Gerador: `fase3/build_video_html.py` (HTML+seek(t) →
+  Playwright frames → ffmpeg). Re-render de ajustes é barato.
+- 3.3 Ajustes: aguardando feedback do usuário sobre a v1; versão 9:16
+  opcional ainda não gerada.
+
+**Próximo**: Fase 4A (posts/carrosséis) e cortes 9:16 (item 4.4).
 
 ## Decisões-chave (não rediscutir)
 
