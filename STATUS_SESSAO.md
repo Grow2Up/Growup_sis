@@ -14,10 +14,12 @@ está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
 - Mapa de cores dos 6 módulos aprovado: Nexa #DE571B, Sales #4767FA,
   Growth #7B4FE0 (ext.), Profit #5E8C54, Flow #3A50D2, North #2E8FA3 (ext.)
 - Ícones aprovados (traço geométrico)
-- Kit vetorial final em `fase1/kit/` (SVG+PNG): assinatura principal em 4
+- Kit vetorial v2 em `fase1/kit/` (SVG+PNG): assinatura principal em 4
   colorways, vertical, app icon, selo e 6 sub-marcas (+variantes dark).
-  Letras derivadas das oficiais (n=u rot180, b=p espelhado, e/y construídas);
-  nomes das sub-marcas em Poppins SemiBold (proposta tipográfica p/ 1.4).
+  IMPORTANTE: o wordmark aprovado é o da Proposta A do Painel 1 — "one"
+  geométrico arredondado LIMPO (Poppins Bold em outlines) + monograma
+  oficial + "BY GROWUP" caps espaçadas. A v1 (letras do logo growup com
+  corte no "o") foi REJEITADA pelo usuário. Gerador: fase1/build_kit_v2.py.
 - Painel (artefato): https://claude.ai/code/artifact/c83772d2-b423-4169-9c0c-58131c4cae0c
 - Scripts geradores: `fase1/build_kit.py` e `fase1/build_submarcas.py`
 
