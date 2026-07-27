@@ -58,11 +58,15 @@ no PREVIEW (produção intocada; publicar é decisão do usuário no Lovable):
 - Etapa 3b (3,2 cr, commit f232a12): navegação — Planejamento Estratégico
   sob Growth One, Avaliação sob Flow One, Mensagens camada neutra; rotas
   antigas preservadas.
-- QA final: em execução (varredura de strings/cores antigas, dark mode,
-  refs quebradas, typecheck).
+- QA final (4,5 cr, commit b97fc38): strings residuais corrigidas, cores
+  cruas → tokens, og/twitter image antigos removidos, dark mode com
+  --operacional/--erp clareados p/ contraste, font-display nos títulos
+  restantes, typecheck limpo, assets /brand/* 200 OK.
 
-**Próximo**: relatório do QA → usuário valida preview → usuário publica.
-Depois: Fase 3 (vídeo) e Fase 4A (posts/carrosséis).
+**FASE 2 CONCLUÍDA NO PREVIEW** (total ~18,2 créditos Lovable).
+**Pendente do usuário**: validar o preview e PUBLICAR no Lovable (produção
+sistema.grow2up.com.br segue com a marca antiga até publicar).
+**Próximo**: Fase 3 (roteiro do vídeo) e Fase 4A (posts/carrosséis).
 
 ## Decisões-chave (não rediscutir)
 
