@@ -9,9 +9,21 @@
 está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
 `PLANEJAMENTO_ONE_BY_GROWUP.pdf` (versão apresentável).
 
-**Próximo passo acordado**: iniciar a **Fase 1 — Identidade**, começando pelos
-itens 1.2 + 1.3: painel visual com proposta de logo do ONE by GrowUp + sistema
-de cores/ícones dos 6 módulos, para reação e aprovação do Guilherme.
+**Fase 1 em andamento — itens 1.2 + 1.3 CONCLUÍDOS e aprovados** (27/07/2026):
+- Wordmark: Proposta A aprovada ("one" minúsculo herdeiro do growup)
+- Mapa de cores dos 6 módulos aprovado: Nexa #DE571B, Sales #4767FA,
+  Growth #7B4FE0 (ext.), Profit #5E8C54, Flow #3A50D2, North #2E8FA3 (ext.)
+- Ícones aprovados (traço geométrico)
+- Kit vetorial final em `fase1/kit/` (SVG+PNG): assinatura principal em 4
+  colorways, vertical, app icon, selo e 6 sub-marcas (+variantes dark).
+  Letras derivadas das oficiais (n=u rot180, b=p espelhado, e/y construídas);
+  nomes das sub-marcas em Poppins SemiBold (proposta tipográfica p/ 1.4).
+- Painel (artefato): https://claude.ai/code/artifact/c83772d2-b423-4169-9c0c-58131c4cae0c
+- Scripts geradores: `fase1/build_kit.py` e `fase1/build_submarcas.py`
+
+**Próximo passo**: item 1.4 — tipografia institucional (validar Poppins) +
+paleta expandida/tokens (dataviz, estados, funil, light/dark); depois 1.1
+(identidade verbal) e 1.5 (brandbook).
 
 ## Decisões-chave (não rediscutir)
 
