@@ -1,0 +1,108 @@
+/* ============================================================
+   ONE by GrowUp — Design Tokens v1 (Fase 1 · item 1.4)
+   Fonte da paleta: pacote oficial da marca GrowUp + extensões
+   aprovadas no Painel 1. Pronto para substituir os tokens do
+   sistema (index.css) na Fase 2.
+   ============================================================ */
+
+:root {
+  /* ---------- Marca (paleta oficial GrowUp) ---------- */
+  --brand-blue:        229 95% 63%;   /* #4767FA — azul principal */
+  --brand-blue-deep:   231 63% 53%;   /* #3A50D2 */
+  --brand-orange:      18 78% 49%;    /* #DE571B */
+  --brand-green:       109 25% 44%;   /* #5E8C54 */
+  --brand-offwhite:    0 0% 95%;      /* #F1F1F1 */
+  --brand-gray:        240 2% 43%;    /* #6C6C70 */
+  --brand-black:       0 0% 8%;       /* #141414 */
+
+  /* ---------- Módulos (aprovado no Painel 1) ---------- */
+  --module-nexa:       18 78% 49%;    /* #DE571B — Marketing */
+  --module-sales:      229 95% 63%;   /* #4767FA — CRM */
+  --module-growth:     258 70% 59%;   /* #7B4FE0 — Growth Intelligence (extensão) */
+  --module-profit:     109 25% 44%;   /* #5E8C54 — ERP */
+  --module-flow:       231 63% 53%;   /* #3A50D2 — Operacional */
+  --module-north:      190 56% 41%;   /* #2E8FA3 — Relatórios (extensão) */
+
+  /* ---------- Estados semânticos ---------- */
+  --success:           109 25% 44%;   /* verde oficial */
+  --warning:           38 75% 49%;    /* #DB9A1F — âmbar derivado do laranja */
+  --destructive:       0 64% 55%;     /* #D64545 — vermelho funcional */
+  --info:              229 95% 63%;   /* azul principal */
+
+  /* ---------- Funil (recalibrado da marca) ---------- */
+  --stage-lead:        45 74% 52%;    /* #E0B429 — amarelo */
+  --stage-atendimento: 229 95% 63%;   /* azul principal */
+  --stage-proposta:    258 70% 59%;   /* violeta */
+  --stage-fechamento:  109 25% 44%;   /* verde oficial */
+
+  /* ---------- Dataviz (categórico = cores dos módulos) ---------- */
+  --chart-1: var(--module-sales);
+  --chart-2: var(--module-nexa);
+  --chart-3: var(--module-growth);
+  --chart-4: var(--module-profit);
+  --chart-5: var(--module-north);
+  --chart-6: var(--module-flow);
+
+  /* ---------- Neutros (escala fria, ancorada nos oficiais) ---------- */
+  --neutral-50:  240 14% 98%;  /* #F8F8FA */
+  --neutral-100: 0 0% 95%;     /* #F1F1F1 oficial */
+  --neutral-200: 240 9% 90%;   /* #E3E3E8 */
+  --neutral-300: 240 8% 80%;   /* #C9C9D1 */
+  --neutral-400: 240 5% 65%;   /* #A0A0AA */
+  --neutral-500: 240 2% 43%;   /* #6C6C70 oficial */
+  --neutral-600: 240 5% 28%;   /* #45454C */
+  --neutral-700: 240 8% 15%;   /* #24242A */
+  --neutral-800: 240 9% 9%;    /* #15151A */
+  --neutral-900: 0 0% 8%;      /* #141414 oficial */
+
+  /* ---------- Tipografia ---------- */
+  --font-display: "Poppins", ui-rounded, system-ui, sans-serif;   /* marca, títulos, nomes de módulo */
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;   /* UI e texto corrido */
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;         /* código e valores técnicos */
+
+  /* ---------- Geometria ---------- */
+  --radius: 0.75rem;        /* 12px — cards e inputs (mantém o sistema atual) */
+  --radius-tile: 1rem;      /* 16px — tiles de módulo e app icon */
+  --radius-pill: 999px;
+
+  /* ---------- Gradiente de marca ---------- */
+  --gradient-primary: linear-gradient(135deg, hsl(229 95% 63%), hsl(231 63% 53%));
+}
+
+/* ============ TEMA CLARO ============ */
+:root {
+  --background:        240 14% 98%;         /* #F8F8FA */
+  --foreground:        var(--brand-black);
+  --card:              0 0% 100%;
+  --card-foreground:   var(--brand-black);
+  --border:            240 9% 90%;
+  --input:             240 9% 90%;
+  --muted:             0 0% 95%;
+  --muted-foreground:  240 2% 43%;
+  --primary:           var(--brand-blue);   /* CORREÇÃO: era hsl(214 88% 52%) */
+  --primary-foreground: 0 0% 100%;
+  --secondary:         240 9% 93%;
+  --secondary-foreground: var(--brand-black);
+  --accent:            229 95% 96%;         /* azul-lavado para hovers */
+  --accent-foreground: var(--brand-blue-deep);
+  --ring:              var(--brand-blue);
+}
+
+/* ============ TEMA ESCURO ============ */
+.dark {
+  --background:        240 9% 7%;           /* #101014 */
+  --foreground:        0 0% 95%;
+  --card:              240 8% 11%;          /* #191922 */
+  --card-foreground:   0 0% 95%;
+  --border:            240 8% 18%;
+  --input:             240 8% 18%;
+  --muted:             240 8% 15%;
+  --muted-foreground:  240 5% 65%;
+  --primary:           var(--brand-blue);
+  --primary-foreground: 0 0% 100%;
+  --secondary:         240 8% 15%;
+  --secondary-foreground: 0 0% 95%;
+  --accent:            231 40% 20%;
+  --accent-foreground: 229 95% 80%;
+  --ring:              var(--brand-blue);
+}

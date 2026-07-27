@@ -21,9 +21,15 @@ está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
 - Painel (artefato): https://claude.ai/code/artifact/c83772d2-b423-4169-9c0c-58131c4cae0c
 - Scripts geradores: `fase1/build_kit.py` e `fase1/build_submarcas.py`
 
-**Próximo passo**: item 1.4 — tipografia institucional (validar Poppins) +
-paleta expandida/tokens (dataviz, estados, funil, light/dark); depois 1.1
-(identidade verbal) e 1.5 (brandbook).
+**Item 1.4 ENTREGUE, aguardando aprovação** (Painel 2):
+- Proposta: Poppins (display/marca) + Manrope (UI/texto)
+- Paleta funcional: estados, funil recalibrado, neutros frios, dataviz
+- Arquivos: `fase1/tokens/tokens.css` + `fase1/tokens/TOKENS.md`
+- Painel 2: https://claude.ai/code/artifact/510ddca9-d099-4150-b888-87988a34cc51
+- Decisões pendentes do usuário: (A) par tipográfico; (B) paleta funcional
+
+**Próximo passo**: com o OK do 1.4 → item 1.1 (identidade verbal) → 1.5
+(brandbook) fecha a Fase 1.
 
 ## Decisões-chave (não rediscutir)
 
