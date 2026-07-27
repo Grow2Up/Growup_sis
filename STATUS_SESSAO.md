@@ -21,15 +21,22 @@ está em `PLANEJAMENTO_ONE_BY_GROWUP.md` (fonte editável) e
 - Painel (artefato): https://claude.ai/code/artifact/c83772d2-b423-4169-9c0c-58131c4cae0c
 - Scripts geradores: `fase1/build_kit.py` e `fase1/build_submarcas.py`
 
-**Item 1.4 ENTREGUE, aguardando aprovação** (Painel 2):
+**Item 1.4 APROVADO** (Poppins + Manrope e paleta funcional completa):
 - Proposta: Poppins (display/marca) + Manrope (UI/texto)
 - Paleta funcional: estados, funil recalibrado, neutros frios, dataviz
 - Arquivos: `fase1/tokens/tokens.css` + `fase1/tokens/TOKENS.md`
 - Painel 2: https://claude.ai/code/artifact/510ddca9-d099-4150-b888-87988a34cc51
-- Decisões pendentes do usuário: (A) par tipográfico; (B) paleta funcional
 
-**Próximo passo**: com o OK do 1.4 → item 1.1 (identidade verbal) → 1.5
-(brandbook) fecha a Fase 1.
+**Item 1.1 ENTREGUE, aguardando aprovação** (Painel 3):
+- Tagline recomendada: "Todo o seu negócio em um." + descritor
+  "O método GrowUp em forma de plataforma."
+- 6 descritores de módulo, tom de voz (4 princípios), regras de grafia,
+  regras do ecossistema e pitches (10s/30s)
+- Guia: `fase1/GUIA_VERBAL.md` · Painel 3:
+  https://claude.ai/code/artifact/4f618c76-c0c3-4c04-b72b-d513f02fd08e
+- Pendente: aprovação das 3 decisões do Painel 3
+
+**Próximo passo**: com o OK do 1.1 → item 1.5 (brandbook) fecha a Fase 1.
 
 ## Decisões-chave (não rediscutir)
 
