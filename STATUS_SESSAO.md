@@ -71,10 +71,19 @@ sistema.grow2up.com.br segue com a marca antiga até publicar).
 - 3.2 Vídeo produzido: `fase3/one-by-growup_video_1080p.mp4` (72s, 1080p30,
   H.264, 3,3MB). Gerador: `fase3/build_video_html.py` (HTML+seek(t) →
   Playwright frames → ffmpeg). Re-render de ajustes é barato.
-- 3.3 Ajustes: aguardando feedback do usuário sobre a v1; versão 9:16
-  opcional ainda não gerada.
+- 3.3: versão 9:16 gerada (`fase3/one-by-growup_video_9x16.mp4`);
+  ajustes da v1 sob demanda.
 
-**Próximo**: Fase 4A (posts/carrosséis) e cortes 9:16 (item 4.4).
+**FASE 4A ENTREGUE** (27/07/2026):
+- Pack de social: 15 peças × 3 formatos (45 PNGs em `fase4/social/`,
+  zip em `fase4/pack-social-one-by-growup.zip`): post de lançamento,
+  6 posts de módulo, carrossel de lançamento (8 slides)
+- `fase4/GUIA_SOCIAL.md` (sistema visual + regras) e gerador
+  `fase4/build_social.py`
+
+**Pendências gerais**: usuário validar preview e PUBLICAR o sistema no
+Lovable; feedback da v1 dos vídeos; restam da Fase 4B: deck comercial,
+one-pagers, página no site, calendário de lançamento (4.8).
 
 ## Decisões-chave (não rediscutir)
 
