@@ -1,7 +1,7 @@
 # Status do projeto — retomada rápida
 
 > Nota de handoff para a próxima sessão de trabalho.
-> Última atualização: 27/07/2026.
+> Última atualização: 27/07/2026 — SISTEMA PUBLICADO EM PRODUÇÃO.
 
 ## Onde paramos
 
@@ -88,10 +88,16 @@ sistema.grow2up.com.br segue com a marca antiga até publicar).
   pronta p/ o site) · artefato: https://claude.ai/code/artifact/11aaf0a1-eae8-4070-a3b0-66dd3b7a320b
 - Calendário de lançamento: `fase4/CALENDARIO_LANCAMENTO.md` (4 semanas)
 
-**Únicas pendências (ações do usuário)**:
-1. Validar preview e PUBLICAR o sistema no Lovable (Dia D do calendário)
-2. Feedback dos vídeos v1 (ajustes re-renderizam em minutos)
-3. Opcional: conectar Lovable↔GitHub p/ versionar o código do sistema
+**✅ SISTEMA PUBLICADO EM PRODUÇÃO (27/07/2026)** — o usuário publicou no
+Lovable; sistema.grow2up.com.br agora é o ONE by GrowUp (commit b97fc38,
+com todo o rebranding + QA). Confirmado via get_project (is_published).
+Este é o "Dia D" do CALENDARIO_LANCAMENTO.md — cronograma de social pode
+começar a contar a partir de hoje.
+
+**Pendências opcionais**:
+1. Feedback dos vídeos v1 (ajustes re-renderizam em minutos)
+2. Conectar Lovable↔GitHub p/ versionar o código do sistema
+3. Subir a landing 'Conheça o ONE' no site da GrowUp
 
 ## Decisões-chave (não rediscutir)
 
